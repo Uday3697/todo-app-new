@@ -8,7 +8,7 @@
 body {
   font-family: "Kanit", sans-serif;
   background: rgb(2,19,6);
-  background: linear-gradient(90deg, rgba(2,19,6,1) 0%, rgba(11,2,2,1) 50%, rgba(3,1,31,1) 100%);
+  background: linear-gradient(90deg, rgb(9, 19, 11) 0%, rgb(43, 21, 21) 50%, rgb(25, 24, 51) 100%);
   color: white;
   display: flex;
   flex-direction: column;
@@ -44,7 +44,7 @@ section {
   text-transform: uppercase;
   width: fit-content;
   padding: 0.3rem 1.5rem;
-  background: rgb(238,174,202);
+  background: rgb(250, 78, 86);
   background: radial-gradient(circle, rgb(73, 47, 58) 0%, rgba(148,187,233,1) 100%);
   border-color: black;
   color: black;
@@ -76,6 +76,8 @@ section {
     height: 2.5rem;
     line-height: 1rem;
     margin-top: 2rem;
+    color: white;
+    
   }
 
   .button.moveTask {
@@ -91,8 +93,8 @@ section {
     border-color: pink;
   }
     .delete:hover {
-      background-color: red;
-      border-color: red;
+      background-color: rgb(34, 14, 65);
+      border-color: rgb(19, 5, 5);
     }
   
 

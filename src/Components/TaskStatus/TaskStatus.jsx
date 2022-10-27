@@ -33,7 +33,7 @@ export default function StatusLine(props) {
 
   return (
     <div className="tstatus">
-      <h3>{status}</h3>
+      <h3 style={{border:"1px solid black" ,backgroundColor:'grey',borderRadius:'5px'}}>{status}</h3>
       {taskList}
       <button onClick={handleAddEmpty} className="button addTask">
         +

@@ -96,7 +96,7 @@ function App() {
             addTask={addTask}
             deleteTask={deleteTask}
             moveTask={moveTask}
-            status="Backlog"
+            status="Pending- Task"
           />
           <TaskStatus
             tasks={tasks}
@@ -112,7 +112,7 @@ function App() {
             addTask={addTask}
             deleteTask={deleteTask}
             moveTask={moveTask}
-            status="Done"
+            status="Complited Task"
           />
           
         </section>
